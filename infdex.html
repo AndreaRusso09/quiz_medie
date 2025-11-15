@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATRIX QUIZ SYSTEM - ITIS GRASSI</title>
+</head>
+<body>
+    
+    <div class="code-container">
+        <div class="code-box">
+            <h1 id="main-title">[[ INITIATING MATRIX PROTOCOL ]]</h1>
+            <p>Seleziona i dati corretti per decifrare il sistema. Inizia il tuo percorso tecnologico con l'ITIS Grassi.</p>
+            
+            <div id="score-display" class="status-line">DATA_SCORE: 0 / 30</div>
+            
+            <button id="start-btn" onclick="iniziaQuiz()">[[ ACCESS SYSTEM ]]</button>
+        </div>
+    </div>
+    
+    <div id="quiz-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-question-number"></h2>
+            <p id="modal-question-text"></p>
+            <div id="modal-options" class="options-grid">
+                </div>
+            <div id="feedback-area" class="feedback"></div>
+        </div>
+    </div>
+
+</body>
+</html>
